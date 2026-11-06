@@ -3,8 +3,6 @@ package no.hvl.dat100.oppgave3;
 import no.hvl.dat100.common.TODO;
 import no.hvl.dat100.oppgave1.*;
 
-import java.net.Inet4Address;
-
 public class Blogg {
 
 	// TODO: objektvariable
@@ -94,7 +92,9 @@ public class Blogg {
 	// valgfrie oppgaver nedenfor
 	
 	public void utvid() {
+
 		throw new UnsupportedOperationException(TODO.method());
+
 	}
 	
 	public boolean leggTilUtvid(Innlegg innlegg) {
