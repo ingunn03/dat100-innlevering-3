@@ -31,9 +31,7 @@ public abstract class Innlegg {
 	}
 	
 	public String getBruker() {
-		
 		return this.bruker;
-
 	}
 
 	public void setBruker(String bruker) {
@@ -50,12 +48,10 @@ public abstract class Innlegg {
 
 	public int getId() {
 		return this.id;
-
 	}
 
 	public int getLikes() {
 		return this.likes;
-
 	}
 	
 	public void doLike () {
